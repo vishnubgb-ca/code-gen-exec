@@ -1,0 +1,5 @@
+{
+  "extract": "Write a Python code to unzip  Training.zip",
+  "transform_and_load": "Load images from folder Training using torch dataloader. The folder contains subfolder where each subfolder represents an image class and the subfolder contains images. After that augment images using different torch transformations. Store the transformed data loader object using pickle with the name model_dataset. Add print statements after every successful step",
+  "visualising-image": "copy 1 random image from each subfolder inside Training folder to the current working directory. Add print statements after every step "
+}
